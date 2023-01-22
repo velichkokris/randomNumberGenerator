@@ -1,0 +1,7 @@
+function randomInRange(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+
+console.log(randomInRange(1, 10)); // prints a random number between 1 and 10
+console.log(randomInRange(100, 200)); // prints a random number between 100 and 200
